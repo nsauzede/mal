@@ -20,7 +20,7 @@ fn rep(s_ string) string {
 
 fn main() {
 	for {
-		mut s := os.input('user>')
+		mut s := os.input('user> ')
 		s = rep(s)
 		println(s)
 		if s == '<EOF>' {
